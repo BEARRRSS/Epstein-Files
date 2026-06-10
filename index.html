@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fayaadh Adhli Nugroho — Dream? IT · Informatika · 2026</title>
+  <meta name="description" content="Perjalanan dan strategi pendaftaran kuliah IT/Teknik Informatika oleh Fayaadh Adhli Nugroho — analisis UTBK 2026, PTN Radar, dan countdown pendaftaran mandiri." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">F<span class="gold-dot">.</span>A<span class="gold-dot">.</span>N</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" id="nav-home">Home</a></li>
+      <li><a href="#journey" id="nav-journey">Journey</a></li>
+      <li><a href="#scores" id="nav-scores">UTBK</a></li>
+      <li><a href="#radar" id="nav-radar">PTN Radar</a></li>
+      <li><a href="#jadwal" id="nav-jadwal">Jadwal</a></li>
+    </ul>
+    <div class="nav-right">
+      <span class="badge-pill">🎯 IT · Informatika · 2026</span>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg-overlay"></div>
+  <div class="hero-bg" style="background-image:url('hero_bg.png')"></div>
+  <div class="hero-scan-lines"></div>
+
+  <!-- Floating particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Glowing grid -->
+  <div class="hero-grid"></div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-tag">
+        <span class="tag-dot"></span>
+        <span class="tag-text"><span class="mono">&lt;</span>UTBK 2026<span class="mono">/&gt;</span> · Jalur Mandiri · Target PTN</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="title-line">Dream</span><span class="title-question">?</span>
+      </h1>
+
+      <div class="hero-terminal">
+        <div class="terminal-bar">
+          <span class="t-dot red"></span><span class="t-dot yellow"></span><span class="t-dot green"></span>
+          <span class="t-title">fayaadh@ptn ~ bash</span>
+        </div>
+        <div class="terminal-body">
+          <p class="t-line"><span class="t-prompt">$</span> whoami</p>
+          <p class="t-line t-output">Fayaadh Adhli Nugroho</p>
+          <p class="t-line"><span class="t-prompt">$</span> target --jurusan</p>
+          <p class="t-line t-output gold-text">Teknik Informatika / Sistem Informasi</p>
+          <p class="t-line"><span class="t-prompt">$</span> status --utbk</p>
+          <p class="t-line t-output">PU: 620.06 · MTK: 604.61 · EN: 617.81</p>
+          <p class="t-line t-blink"><span class="t-prompt">$</span> <span class="cursor-blink">_</span></p>
+        </div>
+      </div>
+
+      <div class="hero-name">
+        <span class="name-label">// Nama lengkap</span>
+        <span class="name-full">Fayaadh Adhli Nugroho</span>
+      </div>
+
+      <div class="hero-cta-group">
+        <a href="#journey" class="btn-primary" id="btn-explore">Lihat Perjalanan</a>
+        <a href="#radar" class="btn-outline" id="btn-radar">PTN Radar <span class="arrow">→</span></a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <!-- Polaroid Photo -->
+      <div class="polaroid-wrapper">
+        <div class="polaroid-frame">
+          <div class="polaroid-img-wrap">
+            <img src="Polaroid.jpg" alt="Foto Fayaadh Adhli Nugroho" class="polaroid-img" onerror="this.style.background='linear-gradient(135deg,#1a1a2e,#16213e)';this.style.minHeight='220px';this.style.display='block'" />
+            <div class="polaroid-overlay"></div>
+          </div>
+          <div class="polaroid-label">Fayaadh · '26</div>
+        </div>
+        <div class="polaroid-badge">IT</div>
+        <div class="polaroid-tape"></div>
+      </div>
+
+      <!-- Floating desk elements -->
+      <div class="desk-card desk-card-uty" id="dc-uty">
+        <span class="dc-icon">✓</span>
+        <div class="dc-info">
+          <span class="dc-title">UTY Diterima</span>
+          <span class="dc-sub">Dilewati → PTN</span>
+        </div>
+      </div>
+      <div class="desk-card desk-card-uny" id="dc-uny">
+        <span class="dc-icon">⚡</span>
+        <div class="dc-info">
+          <span class="dc-title">UNY Mandiri</span>
+          <span class="dc-sub">Terdaftar CBT</span>
+        </div>
+      </div>
+      <div class="desk-card desk-card-score" id="dc-score">
+        <span class="dc-score">620</span>
+        <span class="dc-label">Penalaran Umum</span>
+        <div class="dc-bar"><div class="dc-bar-fill" style="width:62%"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint">
+    <span>Scroll ke bawah</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ JOURNEY ═══════════════════════════ -->
+<section id="journey">
+  <div class="section-inner">
+    <div class="section-label">The Story So Far</div>
+    <h2 class="section-title">Perjalanan <span class="gold">Kuliah</span></h2>
+    <p class="section-sub">Setiap keputusan punya alasan. Ini catatan jujur strategi masuk PTN Jurusan IT saya.</p>
+
+    <div class="timeline">
+
+      <div class="timeline-item tl-done" id="tl-1">
+        <div class="tl-dot done"></div>
+        <div class="tl-line"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <div class="tl-step-wrap">
+              <span class="tl-step mono">01</span>
+              <span class="tl-status status-done">✓ Selesai</span>
+            </div>
+            <span class="tl-date">Mei 2026</span>
+          </div>
+          <h3 class="tl-title">UTBK SNBT 2026 Selesai</h3>
+          <p class="tl-desc">Menyelesaikan tes UTBK dengan skor yang cukup kompetitif untuk jurusan IT. Penalaran Umum (620), Literasi Inggris (617), dan Penalaran Matematika (604) jadi kekuatan utama — modal besar untuk bidang Informatika.</p>
+          <div class="tl-tags">
+            <span class="tl-tag">UTBK</span>
+            <span class="tl-tag">SNBT 2026</span>
+            <span class="tl-tag">PU: 620</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item tl-done" id="tl-2">
+        <div class="tl-dot done"></div>
+        <div class="tl-line"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <div class="tl-step-wrap">
+              <span class="tl-step mono">02</span>
+              <span class="tl-status status-skip">✗ Dilewati</span>
+            </div>
+            <span class="tl-date">Juni 2026</span>
+          </div>
+          <h3 class="tl-title">Diterima UTY — <em class="italic-note">Keputusan: Lewati</em></h3>
+          <p class="tl-desc">Kabar gembira — diterima di UTY! Namun tenggat registrasi jatuh bulan ini (Juni 2026), sementara target utama masih PTN dengan kualitas IT yang lebih kuat. <strong>Keputusan strategis: lewati UTY, fokus penuh PTN.</strong></p>
+          <div class="tl-detail-box">
+            <div class="tl-detail-row">
+              <span class="tl-detail-label">Alasan utama:</span>
+              <span class="tl-detail-val">Deadline bentrok dengan proses PTN</span>
+            </div>
+            <div class="tl-detail-row">
+              <span class="tl-detail-label">Risiko:</span>
+              <span class="tl-detail-val">Rendah — opsi swasta masih terbuka</span>
+            </div>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag">UTY</span>
+            <span class="tl-tag tag-skip">Dilewati</span>
+            <span class="tl-tag tag-reason">Alasan: Prioritas PTN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item tl-active" id="tl-3">
+        <div class="tl-dot active pulse"></div>
+        <div class="tl-line"></div>
+        <div class="tl-card tl-card-active">
+          <div class="tl-active-glow"></div>
+          <div class="tl-header">
+            <div class="tl-step-wrap">
+              <span class="tl-step mono">03</span>
+              <span class="tl-status status-active">⚡ Sedang Berjalan</span>
+            </div>
+            <span class="tl-date">Juni 2026</span>
+          </div>
+          <h3 class="tl-title">Mendaftar Mandiri CBT UNY <span class="tl-uni-badge badge-uny">Universitas Negeri Yogyakarta</span></h3>
+          <p class="tl-desc">Sudah membayar dan mendaftar jalur Mandiri CBT di UNY. Prodi Teknik Informatika UNY memiliki akreditasi A dan reputasi nasional yang kuat. Target prodi: <strong>Teknik Informatika / Informatika</strong>.</p>
+          <div class="tl-progress-wrap">
+            <div class="tl-progress-label">Progress Pendaftaran UNY Mandiri CBT</div>
+            <div class="tl-progress-bar">
+              <div class="tl-progress-fill" style="width:75%">
+                <span>Bayar ✓ · Daftar ✓ · Menunggu Ujian</span>
+              </div>
+            </div>
+          </div>
+          <div class="tl-tags">
+            <span class="tl-tag">UNY</span>
+            <span class="tl-tag">Mandiri CBT</span>
+            <span class="tl-tag">Teknik Informatika</span>
+            <span class="tl-tag tag-active">Aktif ⚡</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item tl-upcoming" id="tl-4">
+        <div class="tl-dot upcoming"></div>
+        <div class="tl-card">
+          <div class="tl-header">
+            <div class="tl-step-wrap">
+              <span class="tl-step mono">04</span>
+              <span class="tl-status status-upcoming">◎ Rencana</span>
+            </div>
+            <span class="tl-date">Juni–Juli 2026</span>
+          </div>
+          <h3 class="tl-title">Eksplorasi PTN IT Cadangan</h3>
+          <p class="tl-desc">Strategi cerdas: jangan taruh semua telur dalam satu keranjang. Aktif mencari PTN lain yang jalur Mandiri Informatika/Sistem Informasinya masih buka per Juni 2026 — dipantau via PTN Radar di bawah.</p>
+          <div class="tl-tags">
+            <span class="tl-tag">Riset PTN</span>
+            <span class="tl-tag">Informatika</span>
+            <span class="tl-tag">Strategi Cadangan</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end timeline -->
+  </div>
+</section>
+
+<!-- ═══════════════════════════ SCORES ═══════════════════════════ -->
+<section id="scores">
+  <div class="section-inner">
+    <div class="section-label">UTBK 2026 — Hasil Resmi</div>
+    <h2 class="section-title">Skor <span class="gold">Saya</span></h2>
+    <p class="section-sub">Data autentik dari hasil UTBK SNBT 2026. Kekuatan terbesar: Penalaran Umum & Matematika — dua pilar vital untuk IT.</p>
+
+    <div class="scores-grid">
+      <div class="score-card" data-score="620.06" data-max="1000" data-color="#C9A84C">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#C9A84C" data-pct="62"/>
+          </svg>
+          <div class="score-center"><span class="score-num">620</span><span class="score-unit">.06</span></div>
+        </div>
+        <div class="score-label">Penalaran Umum</div>
+        <div class="score-relevance">🔥 Kritis untuk IT</div>
+        <div class="score-tag score-tag-high">Tinggi ↑</div>
+      </div>
+
+      <div class="score-card" data-score="505.16" data-max="1000" data-color="#8B9BAD">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#8B9BAD" data-pct="50.5"/>
+          </svg>
+          <div class="score-center"><span class="score-num">505</span><span class="score-unit">.16</span></div>
+        </div>
+        <div class="score-label">Pengetahuan & Pemahaman Umum</div>
+        <div class="score-relevance">📚 Relevan</div>
+        <div class="score-tag score-tag-mid">Sedang →</div>
+      </div>
+
+      <div class="score-card" data-score="505.90" data-max="1000" data-color="#8B9BAD">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#8B9BAD" data-pct="50.6"/>
+          </svg>
+          <div class="score-center"><span class="score-num">505</span><span class="score-unit">.90</span></div>
+        </div>
+        <div class="score-label">Pemahaman Bacaan & Menulis</div>
+        <div class="score-relevance">📖 Relevan</div>
+        <div class="score-tag score-tag-mid">Sedang →</div>
+      </div>
+
+      <div class="score-card" data-score="425.62" data-max="1000" data-color="#C05252">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#C05252" data-pct="42.6"/>
+          </svg>
+          <div class="score-center"><span class="score-num">425</span><span class="score-unit">.62</span></div>
+        </div>
+        <div class="score-label">Pengetahuan Kuantitatif</div>
+        <div class="score-relevance">⚠ Area Tingkatkan</div>
+        <div class="score-tag score-tag-low">Perlu Boost ↗</div>
+      </div>
+
+      <div class="score-card" data-score="617.81" data-max="1000" data-color="#C9A84C">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#C9A84C" data-pct="61.8"/>
+          </svg>
+          <div class="score-center"><span class="score-num">617</span><span class="score-unit">.81</span></div>
+        </div>
+        <div class="score-label">Literasi Bahasa Inggris</div>
+        <div class="score-relevance">🌐 Vital untuk IT</div>
+        <div class="score-tag score-tag-high">Tinggi ↑</div>
+      </div>
+
+      <div class="score-card" data-score="604.61" data-max="1000" data-color="#C9A84C">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#C9A84C" data-pct="60.5"/>
+          </svg>
+          <div class="score-center"><span class="score-num">604</span><span class="score-unit">.61</span></div>
+        </div>
+        <div class="score-label">Penalaran Matematika</div>
+        <div class="score-relevance">🔥 Kritis untuk IT</div>
+        <div class="score-tag score-tag-high">Tinggi ↑</div>
+      </div>
+
+      <div class="score-card score-card-half" data-score="571.46" data-max="1000" data-color="#7B9E8C">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#7B9E8C" data-pct="57.1"/>
+          </svg>
+          <div class="score-center"><span class="score-num">571</span><span class="score-unit">.46</span></div>
+        </div>
+        <div class="score-label">Literasi Bahasa Indonesia (Saintek)</div>
+        <div class="score-relevance">📄 Jalur Saintek</div>
+        <div class="score-tag score-tag-mid">Sedang →</div>
+      </div>
+
+      <div class="score-card score-card-half" data-score="355.07" data-max="1000" data-color="#A07060">
+        <div class="score-ring-wrap">
+          <svg class="score-ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="50"/>
+            <circle class="ring-fg" cx="60" cy="60" r="50" style="--stroke-color:#A07060" data-pct="35.5"/>
+          </svg>
+          <div class="score-center"><span class="score-num">355</span><span class="score-unit">.07</span></div>
+        </div>
+        <div class="score-label">Literasi Bahasa Indonesia (Soshum)</div>
+        <div class="score-relevance">📄 Jalur Soshum</div>
+        <div class="score-tag score-tag-low">Area Improve ↗</div>
+      </div>
+    </div>
+
+    <!-- Summary bar chart -->
+    <div class="scores-chart">
+      <div class="chart-header">
+        <h3 class="chart-title">Visualisasi Perbandingan Skor</h3>
+        <span class="chart-sub mono">Relevansi untuk Prodi IT ditandai 🔥</span>
+      </div>
+      <div class="chart-bars" id="chartBars"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PTN RADAR ═══════════════════════════ -->
+<section id="radar">
+  <div class="section-inner">
+    <div class="section-label">PTN Radar & IT Analytics</div>
+    <h2 class="section-title">Dashboard <span class="gold">PTN</span></h2>
+    <p class="section-sub">Hanya menampilkan PTN yang jalur Mandiri IT/Informatika-nya <strong class="gold">masih buka per Juni 2026</strong>. Klik kartu untuk detail lengkap.</p>
+
+    <!-- Filter bar -->
+    <div class="radar-filters">
+      <button class="filter-btn active" data-filter="all" id="filter-all">Semua PTN</button>
+      <button class="filter-btn" data-filter="open" id="filter-open">🟢 Masih Buka</button>
+      <button class="filter-btn" data-filter="high" id="filter-high">⚡ Peluang Tinggi</button>
+      <div class="filter-info mono">Hari ini: <strong id="todayDateRadar" class="gold"></strong></div>
+    </div>
+
+    <div class="radar-grid" id="radarGrid">
+
+      <!-- ── UNY ── FEATURED ── -->
+      <div class="ptn-card ptn-featured ptn-open" id="ptn-uny" data-filter="open high">
+        <div class="ptn-card-glow glow-gold"></div>
+        <div class="ptn-featured-ribbon">🎯 TARGET UTAMA</div>
+
+        <div class="ptn-header">
+          <div class="ptn-logo uny-color">UNY</div>
+          <div class="ptn-info">
+            <h3 class="ptn-name">Universitas Negeri Yogyakarta</h3>
+            <span class="ptn-prodi">📌 Prodi: Teknik Informatika</span>
+            <span class="ptn-jalur">🗂 Jalur: Mandiri CBT di Kampus</span>
+          </div>
+          <div class="ptn-status-badge open">🟢 Buka</div>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="ptn-countdown" id="cd-uny">
+          <div class="cd-label">⏱ Penutupan pendaftaran:</div>
+          <div class="cd-timer">
+            <div class="cd-block"><span class="cd-val" id="uny-d">--</span><small>Hari</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="uny-h">--</span><small>Jam</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="uny-m">--</span><small>Menit</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="uny-s">--</span><small>Detik</small></div>
+          </div>
+          <div class="cd-deadline">2 Juli 2026</div>
+        </div>
+
+        <!-- Metrics -->
+        <div class="ptn-metrics">
+          <div class="metric-item" data-tooltip="Berdasarkan skor UTBK vs rata-rata masuk Informatika UNY">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80">
+                <circle class="mring-bg" cx="40" cy="40" r="32"/>
+                <circle class="mring-fg chance" cx="40" cy="40" r="32" data-pct="68"/>
+              </svg>
+              <div class="metric-val" data-target="68">0</div>
+            </div>
+            <div class="metric-label">Chance IT</div>
+            <div class="metric-sub">Peluang Lolos</div>
+          </div>
+          <div class="metric-item" data-tooltip="Kualitas lab IT, kurikulum, prospek kerja alumni">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80">
+                <circle class="mring-bg" cx="40" cy="40" r="32"/>
+                <circle class="mring-fg quality" cx="40" cy="40" r="32" data-pct="80"/>
+              </svg>
+              <div class="metric-val" data-target="80">0</div>
+            </div>
+            <div class="metric-label">IT Quality</div>
+            <div class="metric-sub">Lab & Kurikulum</div>
+          </div>
+          <div class="metric-item" data-tooltip="Peringkat nasional UNY versi Webometrics/4ICU 2025">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80">
+                <circle class="mring-bg" cx="40" cy="40" r="32"/>
+                <circle class="mring-fg rank" cx="40" cy="40" r="32" data-pct="84"/>
+              </svg>
+              <div class="metric-val rank-label">#8</div>
+            </div>
+            <div class="metric-label">Rank Nasional</div>
+            <div class="metric-sub">Top 10 PTN RI</div>
+          </div>
+        </div>
+
+        <div class="ptn-detail-bars">
+          <div class="detail-row"><span>Lab Komputer & Infrastruktur IT</span><div class="detail-bar"><div class="detail-fill" style="width:78%;--bar-color:var(--gold)"></div></div><span class="detail-pct">78</span></div>
+          <div class="detail-row"><span>Kurikulum & Riset IT</span><div class="detail-bar"><div class="detail-fill" style="width:82%;--bar-color:var(--gold)"></div></div><span class="detail-pct">82</span></div>
+          <div class="detail-row"><span>Prospek Karir Alumni IT</span><div class="detail-bar"><div class="detail-fill" style="width:85%;--bar-color:var(--gold)"></div></div><span class="detail-pct">85</span></div>
+          <div class="detail-row"><span>Biaya Hidup (efisiensi)</span><div class="detail-bar"><div class="detail-fill" style="width:90%;--bar-color:var(--green)"></div></div><span class="detail-pct">90</span></div>
+        </div>
+
+        <div class="ptn-verdict verdict-good">✦ Skor kamu kompetitif — Penalaran Umum 620 & Matematika 604 sangat kuat untuk Informatika UNY.</div>
+        <a href="https://pmb.uny.ac.id" target="_blank" class="ptn-action-btn">Lihat Pendaftaran →</a>
+      </div>
+
+      <!-- ── ITS ── -->
+      <div class="ptn-card ptn-open" id="ptn-its" data-filter="open">
+        <div class="ptn-card-glow glow-blue"></div>
+        <div class="ptn-header">
+          <div class="ptn-logo its-color">ITS</div>
+          <div class="ptn-info">
+            <h3 class="ptn-name">Institut Teknologi Sepuluh Nopember</h3>
+            <span class="ptn-prodi">📌 Prodi: Informatika</span>
+            <span class="ptn-jalur">🗂 Jalur: Mandiri Skor UTBK</span>
+          </div>
+          <div class="ptn-status-badge open">🟢 Buka</div>
+        </div>
+
+        <div class="ptn-countdown" id="cd-its">
+          <div class="cd-label">⏱ Penutupan pendaftaran:</div>
+          <div class="cd-timer">
+            <div class="cd-block"><span class="cd-val" id="its-d">--</span><small>Hari</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="its-h">--</span><small>Jam</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="its-m">--</span><small>Menit</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="its-s">--</span><small>Detik</small></div>
+          </div>
+          <div class="cd-deadline">20 Juni 2026</div>
+        </div>
+
+        <div class="ptn-metrics">
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg chance" cx="40" cy="40" r="32" data-pct="42"/></svg>
+              <div class="metric-val" data-target="42">0</div>
+            </div>
+            <div class="metric-label">Chance IT</div>
+            <div class="metric-sub">Ketat — Top Nasional</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg quality" cx="40" cy="40" r="32" data-pct="95"/></svg>
+              <div class="metric-val" data-target="95">0</div>
+            </div>
+            <div class="metric-label">IT Quality</div>
+            <div class="metric-sub">Terbaik RI</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg rank" cx="40" cy="40" r="32" data-pct="96"/></svg>
+              <div class="metric-val rank-label">#4</div>
+            </div>
+            <div class="metric-label">Rank Nasional</div>
+            <div class="metric-sub">Top 5 PTN RI</div>
+          </div>
+        </div>
+
+        <div class="ptn-detail-bars">
+          <div class="detail-row"><span>Ekosistem Teknologi & Startup</span><div class="detail-bar"><div class="detail-fill" style="width:96%;--bar-color:var(--gold)"></div></div><span class="detail-pct">96</span></div>
+          <div class="detail-row"><span>Riset AI & Komputasi</span><div class="detail-bar"><div class="detail-fill" style="width:94%;--bar-color:var(--gold)"></div></div><span class="detail-pct">94</span></div>
+        </div>
+
+        <div class="ptn-verdict verdict-warn">⚠ Kompetisi sangat ketat — passing grade Informatika ITS di atas rata-rata nasional. Pertimbangkan sebagai aspirasi.</div>
+        <a href="https://smits.its.ac.id" target="_blank" class="ptn-action-btn">Lihat Pendaftaran →</a>
+      </div>
+
+      <!-- ── UNDIP ── -->
+      <div class="ptn-card ptn-open" id="ptn-undip" data-filter="open high">
+        <div class="ptn-card-glow glow-green"></div>
+        <div class="ptn-header">
+          <div class="ptn-logo undip-color">UNDIP</div>
+          <div class="ptn-info">
+            <h3 class="ptn-name">Universitas Diponegoro</h3>
+            <span class="ptn-prodi">📌 Prodi: Teknik Informatika / Sistem Informasi</span>
+            <span class="ptn-jalur">🗂 Jalur: Mandiri UTBK</span>
+          </div>
+          <div class="ptn-status-badge open">🟢 Buka</div>
+        </div>
+
+        <div class="ptn-countdown" id="cd-undip">
+          <div class="cd-label">⏱ Penutupan pendaftaran:</div>
+          <div class="cd-timer">
+            <div class="cd-block"><span class="cd-val" id="undip-d">--</span><small>Hari</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="undip-h">--</span><small>Jam</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="undip-m">--</span><small>Menit</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="undip-s">--</span><small>Detik</small></div>
+          </div>
+          <div class="cd-deadline">30 Juni 2026</div>
+        </div>
+
+        <div class="ptn-metrics">
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg chance" cx="40" cy="40" r="32" data-pct="62"/></svg>
+              <div class="metric-val" data-target="62">0</div>
+            </div>
+            <div class="metric-label">Chance IT</div>
+            <div class="metric-sub">Kompetitif</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg quality" cx="40" cy="40" r="32" data-pct="82"/></svg>
+              <div class="metric-val" data-target="82">0</div>
+            </div>
+            <div class="metric-label">IT Quality</div>
+            <div class="metric-sub">Sangat Baik</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg rank" cx="40" cy="40" r="32" data-pct="80"/></svg>
+              <div class="metric-val rank-label">#10</div>
+            </div>
+            <div class="metric-label">Rank Nasional</div>
+            <div class="metric-sub">Top 15 PTN RI</div>
+          </div>
+        </div>
+
+        <div class="ptn-detail-bars">
+          <div class="detail-row"><span>Lab IT & Komputasi</span><div class="detail-bar"><div class="detail-fill" style="width:80%;--bar-color:var(--gold)"></div></div><span class="detail-pct">80</span></div>
+          <div class="detail-row"><span>Prospek Industri Jateng</span><div class="detail-bar"><div class="detail-fill" style="width:85%;--bar-color:var(--gold)"></div></div><span class="detail-pct">85</span></div>
+        </div>
+
+        <div class="ptn-verdict verdict-good">✦ Peluang realistis — skor kamu dalam rentang kompetitif untuk Informatika UNDIP Semarang.</div>
+        <a href="https://pmb.undip.ac.id" target="_blank" class="ptn-action-btn">Lihat Pendaftaran →</a>
+      </div>
+
+      <!-- ── UNS ── -->
+      <div class="ptn-card ptn-open" id="ptn-uns" data-filter="open high">
+        <div class="ptn-card-glow glow-orange"></div>
+        <div class="ptn-header">
+          <div class="ptn-logo uns-color">UNS</div>
+          <div class="ptn-info">
+            <h3 class="ptn-name">Universitas Sebelas Maret</h3>
+            <span class="ptn-prodi">📌 Prodi: Informatika / Sistem Informasi</span>
+            <span class="ptn-jalur">🗂 Jalur: Mandiri UTBK-SNBT</span>
+          </div>
+          <div class="ptn-status-badge open">🟢 Buka</div>
+        </div>
+
+        <div class="ptn-countdown" id="cd-uns">
+          <div class="cd-label">⏱ Penutupan pendaftaran:</div>
+          <div class="cd-timer">
+            <div class="cd-block"><span class="cd-val" id="uns-d">--</span><small>Hari</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="uns-h">--</span><small>Jam</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="uns-m">--</span><small>Menit</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="uns-s">--</span><small>Detik</small></div>
+          </div>
+          <div class="cd-deadline">4 Juli 2026</div>
+        </div>
+
+        <div class="ptn-metrics">
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg chance" cx="40" cy="40" r="32" data-pct="70"/></svg>
+              <div class="metric-val" data-target="70">0</div>
+            </div>
+            <div class="metric-label">Chance IT</div>
+            <div class="metric-sub">Peluang Bagus</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg quality" cx="40" cy="40" r="32" data-pct="76"/></svg>
+              <div class="metric-val" data-target="76">0</div>
+            </div>
+            <div class="metric-label">IT Quality</div>
+            <div class="metric-sub">Baik</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg rank" cx="40" cy="40" r="32" data-pct="76"/></svg>
+              <div class="metric-val rank-label">#12</div>
+            </div>
+            <div class="metric-label">Rank Nasional</div>
+            <div class="metric-sub">Top 15 PTN RI</div>
+          </div>
+        </div>
+
+        <div class="ptn-detail-bars">
+          <div class="detail-row"><span>Program Informatika & SI</span><div class="detail-bar"><div class="detail-fill" style="width:75%;--bar-color:var(--gold)"></div></div><span class="detail-pct">75</span></div>
+          <div class="detail-row"><span>Lokasi Strategis (Solo)</span><div class="detail-bar"><div class="detail-fill" style="width:88%;--bar-color:var(--green)"></div></div><span class="detail-pct">88</span></div>
+        </div>
+
+        <div class="ptn-verdict verdict-good">✦ Pilihan cadangan solid — dekat dari Klaten/Solo, passing grade Informatika UNS realistis untuk skormu.</div>
+        <a href="https://spmb.uns.ac.id" target="_blank" class="ptn-action-btn">Lihat Pendaftaran →</a>
+      </div>
+
+      <!-- ── UPN Veteran Yogyakarta ── -->
+      <div class="ptn-card ptn-open" id="ptn-upn" data-filter="open high">
+        <div class="ptn-card-glow glow-green"></div>
+        <div class="ptn-header">
+          <div class="ptn-logo upn-color">UPN</div>
+          <div class="ptn-info">
+            <h3 class="ptn-name">UPN Veteran Yogyakarta</h3>
+            <span class="ptn-prodi">📌 Prodi: Teknik Informatika</span>
+            <span class="ptn-jalur">🗂 Jalur: Mandiri UTBK</span>
+          </div>
+          <div class="ptn-status-badge open">🟢 Buka</div>
+        </div>
+
+        <div class="ptn-countdown" id="cd-upn">
+          <div class="cd-label">⏱ Penutupan pendaftaran:</div>
+          <div class="cd-timer">
+            <div class="cd-block"><span class="cd-val" id="upn-d">--</span><small>Hari</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="upn-h">--</span><small>Jam</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="upn-m">--</span><small>Menit</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="upn-s">--</span><small>Detik</small></div>
+          </div>
+          <div class="cd-deadline">15 Juli 2026</div>
+        </div>
+
+        <div class="ptn-metrics">
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg chance" cx="40" cy="40" r="32" data-pct="75"/></svg>
+              <div class="metric-val" data-target="75">0</div>
+            </div>
+            <div class="metric-label">Chance IT</div>
+            <div class="metric-sub">Peluang Tinggi</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg quality" cx="40" cy="40" r="32" data-pct="70"/></svg>
+              <div class="metric-val" data-target="70">0</div>
+            </div>
+            <div class="metric-label">IT Quality</div>
+            <div class="metric-sub">Cukup Baik</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg rank" cx="40" cy="40" r="32" data-pct="60"/></svg>
+              <div class="metric-val rank-label">#35</div>
+            </div>
+            <div class="metric-label">Rank Nasional</div>
+            <div class="metric-sub">Midtier PTN RI</div>
+          </div>
+        </div>
+
+        <div class="ptn-detail-bars">
+          <div class="detail-row"><span>Informatika & Rekayasa Perangkat Lunak</span><div class="detail-bar"><div class="detail-fill" style="width:70%;--bar-color:var(--gold)"></div></div><span class="detail-pct">70</span></div>
+          <div class="detail-row"><span>Biaya Terjangkau (PTN)</span><div class="detail-bar"><div class="detail-fill" style="width:92%;--bar-color:var(--green)"></div></div><span class="detail-pct">92</span></div>
+        </div>
+
+        <div class="ptn-verdict verdict-good">✦ Peluang tertinggi untuk ITmu — passing grade Informatika UPN lebih realistis, lokasi Yogyakarta strategis.</div>
+        <a href="https://upnyk.ac.id/pmb" target="_blank" class="ptn-action-btn">Lihat Pendaftaran →</a>
+      </div>
+
+      <!-- ── UB ── -->
+      <div class="ptn-card ptn-open" id="ptn-ub" data-filter="open">
+        <div class="ptn-card-glow glow-blue"></div>
+        <div class="ptn-header">
+          <div class="ptn-logo ub-color">UB</div>
+          <div class="ptn-info">
+            <h3 class="ptn-name">Universitas Brawijaya</h3>
+            <span class="ptn-prodi">📌 Prodi: Teknik Informatika / Sistem Informasi</span>
+            <span class="ptn-jalur">🗂 Jalur: Mandiri Skor UTBK</span>
+          </div>
+          <div class="ptn-status-badge open">🟢 Buka</div>
+        </div>
+
+        <div class="ptn-countdown" id="cd-ub">
+          <div class="cd-label">⏱ Penutupan pendaftaran:</div>
+          <div class="cd-timer">
+            <div class="cd-block"><span class="cd-val" id="ub-d">--</span><small>Hari</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="ub-h">--</span><small>Jam</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="ub-m">--</span><small>Menit</small></div>
+            <div class="cd-sep">:</div>
+            <div class="cd-block"><span class="cd-val" id="ub-s">--</span><small>Detik</small></div>
+          </div>
+          <div class="cd-deadline">5 Juli 2026</div>
+        </div>
+
+        <div class="ptn-metrics">
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg chance" cx="40" cy="40" r="32" data-pct="55"/></svg>
+              <div class="metric-val" data-target="55">0</div>
+            </div>
+            <div class="metric-label">Chance IT</div>
+            <div class="metric-sub">Menantang</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg quality" cx="40" cy="40" r="32" data-pct="83"/></svg>
+              <div class="metric-val" data-target="83">0</div>
+            </div>
+            <div class="metric-label">IT Quality</div>
+            <div class="metric-sub">Sangat Baik</div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-ring-wrap">
+              <svg class="metric-ring" viewBox="0 0 80 80"><circle class="mring-bg" cx="40" cy="40" r="32"/><circle class="mring-fg rank" cx="40" cy="40" r="32" data-pct="82"/></svg>
+              <div class="metric-val rank-label">#9</div>
+            </div>
+            <div class="metric-label">Rank Nasional</div>
+            <div class="metric-sub">Top 10 PTN RI</div>
+          </div>
+        </div>
+
+        <div class="ptn-detail-bars">
+          <div class="detail-row"><span>Ekosistem Tech Malang</span><div class="detail-bar"><div class="detail-fill" style="width:85%;--bar-color:var(--gold)"></div></div><span class="detail-pct">85</span></div>
+          <div class="detail-row"><span>Lab & Fasilitas Komputasi</span><div class="detail-bar"><div class="detail-fill" style="width:80%;--bar-color:var(--gold)"></div></div><span class="detail-pct">80</span></div>
+        </div>
+
+        <div class="ptn-verdict verdict-warn">⚠ Cukup kompetitif — pertimbangkan Sistem Informasi UB sebagai alternatif lebih realistis dari TI-nya.</div>
+        <a href="https://selma.ub.ac.id" target="_blank" class="ptn-action-btn">Lihat Pendaftaran →</a>
+      </div>
+
+    </div><!-- end radar-grid -->
+
+    <!-- Comparison Table -->
+    <div class="radar-table-wrap">
+      <h3 class="chart-title">Tabel Perbandingan Cepat <span class="mono" style="font-size:0.75rem;color:var(--text-muted)">— Prodi IT/Informatika</span></h3>
+      <div class="table-scroll">
+        <table class="radar-table" id="radarTable">
+          <thead>
+            <tr>
+              <th>Kampus</th>
+              <th>Prodi Target</th>
+              <th>Chance IT</th>
+              <th>IT Quality</th>
+              <th>Rank Nasional</th>
+              <th>Deadline</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row-featured">
+              <td><strong>UNY</strong> <span class="tiny-badge">Target</span></td>
+              <td class="mono-sm">Teknik Informatika</td>
+              <td><span class="tbl-val high">68/100</span></td>
+              <td><span class="tbl-val high">80/100</span></td>
+              <td><span class="tbl-val">#8</span></td>
+              <td><span class="tbl-deadline">2 Jul 2026</span></td>
+              <td><span class="status-pill pill-active">Terdaftar ✓</span></td>
+            </tr>
+            <tr>
+              <td><strong>ITS</strong></td>
+              <td class="mono-sm">Informatika</td>
+              <td><span class="tbl-val low">42/100</span></td>
+              <td><span class="tbl-val high">95/100</span></td>
+              <td><span class="tbl-val">#4</span></td>
+              <td><span class="tbl-deadline tbl-urgent">20 Jun 2026</span></td>
+              <td><span class="status-pill pill-prospect">Aspirasi</span></td>
+            </tr>
+            <tr>
+              <td><strong>UNDIP</strong></td>
+              <td class="mono-sm">Informatika / SI</td>
+              <td><span class="tbl-val mid">62/100</span></td>
+              <td><span class="tbl-val high">82/100</span></td>
+              <td><span class="tbl-val">#10</span></td>
+              <td><span class="tbl-deadline">30 Jun 2026</span></td>
+              <td><span class="status-pill pill-prospect">Dipertimbangkan</span></td>
+            </tr>
+            <tr>
+              <td><strong>UNS</strong></td>
+              <td class="mono-sm">Informatika / SI</td>
+              <td><span class="tbl-val mid">70/100</span></td>
+              <td><span class="tbl-val mid">76/100</span></td>
+              <td><span class="tbl-val">#12</span></td>
+              <td><span class="tbl-deadline">4 Jul 2026</span></td>
+              <td><span class="status-pill pill-prospect">Cadangan A</span></td>
+            </tr>
+            <tr>
+              <td><strong>UPN Vet. Yogya</strong></td>
+              <td class="mono-sm">Teknik Informatika</td>
+              <td><span class="tbl-val high">75/100</span></td>
+              <td><span class="tbl-val mid">70/100</span></td>
+              <td><span class="tbl-val">#35</span></td>
+              <td><span class="tbl-deadline">15 Jul 2026</span></td>
+              <td><span class="status-pill pill-prospect">Cadangan B</span></td>
+            </tr>
+            <tr>
+              <td><strong>UB</strong></td>
+              <td class="mono-sm">TI / Sistem Informasi</td>
+              <td><span class="tbl-val mid">55/100</span></td>
+              <td><span class="tbl-val high">83/100</span></td>
+              <td><span class="tbl-val">#9</span></td>
+              <td><span class="tbl-deadline">5 Jul 2026</span></td>
+              <td><span class="status-pill pill-prospect">Cadangan C</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ JADWAL ═══════════════════════════ -->
+<section id="jadwal">
+  <div class="section-inner">
+    <div class="section-label">Real-Time Schedule Tracker</div>
+    <h2 class="section-title">Jadwal <span class="gold">Pendaftaran</span> Mandiri</h2>
+    <p class="section-sub">Jadwal aktual per sumber resmi kampus. Hari ini: <strong id="todayDate" class="gold mono"></strong> — pantau terus, deadline mendekat!</p>
+
+    <!-- Main countdown banner -->
+    <div class="countdown-banner">
+      <div class="cb-left">
+        <div class="cb-icon">⏳</div>
+        <div class="cb-info">
+          <span class="cb-title">UNY — Mandiri CBT di Kampus</span>
+          <span class="cb-sub">Penutupan: 2 Juli 2026 | Kamu sudah terdaftar!</span>
+        </div>
+      </div>
+      <div class="countdown-timer" id="mainCountdown">
+        <div class="cdt-block"><span id="mc-days">--</span><small>Hari</small></div>
+        <div class="cdt-sep">:</div>
+        <div class="cdt-block"><span id="mc-hours">--</span><small>Jam</small></div>
+        <div class="cdt-sep">:</div>
+        <div class="cdt-block"><span id="mc-mins">--</span><small>Menit</small></div>
+        <div class="cdt-sep">:</div>
+        <div class="cdt-block"><span id="mc-secs">--</span><small>Detik</small></div>
+      </div>
+    </div>
+
+    <!-- Schedule cards -->
+    <div class="schedule-grid">
+
+      <div class="sched-card sched-open" id="sched-uny1">
+        <div class="sched-status-stripe"></div>
+        <div class="sched-header">
+          <div class="sched-logo uny-color">UNY</div>
+          <div class="sched-info">
+            <h3 class="sched-name">Universitas Negeri Yogyakarta</h3>
+            <span class="sched-jalur">Jalur: Mandiri CBT di Kampus · Teknik Informatika</span>
+          </div>
+          <div class="sched-urgency open">🟢 Buka</div>
+        </div>
+        <div class="sched-timeline">
+          <div class="sched-phase">
+            <div class="sched-phase-dot done"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pendaftaran Dibuka</span><span class="sph-date">4 Mei 2026 ✓</span></div>
+          </div>
+          <div class="sched-connector done"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot active pulse"></div>
+            <div class="sched-phase-info"><span class="sph-label">Penutupan Pendaftaran</span><span class="sph-date highlight">2 Juli 2026 ← Segera!</span></div>
+          </div>
+          <div class="sched-connector upcoming"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot upcoming"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pelaksanaan CBT</span><span class="sph-date">7–10 Juli 2026</span></div>
+          </div>
+          <div class="sched-connector upcoming"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot upcoming"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pengumuman Hasil</span><span class="sph-date">14 Juli 2026</span></div>
+          </div>
+        </div>
+        <div class="sched-action">
+          <a href="https://pmb.uny.ac.id" target="_blank" class="sched-btn">Portal PMB UNY →</a>
+          <span class="sched-note registered">✓ Sudah Terdaftar!</span>
+        </div>
+      </div>
+
+      <div class="sched-card sched-open" id="sched-uny2">
+        <div class="sched-status-stripe"></div>
+        <div class="sched-header">
+          <div class="sched-logo uny-color">UNY</div>
+          <div class="sched-info">
+            <h3 class="sched-name">Universitas Negeri Yogyakarta</h3>
+            <span class="sched-jalur">Jalur: Mandiri CBT di Domisili · Teknik Informatika</span>
+          </div>
+          <div class="sched-urgency open">🟢 Buka</div>
+        </div>
+        <div class="sched-timeline">
+          <div class="sched-phase">
+            <div class="sched-phase-dot done"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pendaftaran Dibuka</span><span class="sph-date">8 Juni 2026 ✓</span></div>
+          </div>
+          <div class="sched-connector done"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot active pulse"></div>
+            <div class="sched-phase-info"><span class="sph-label">Penutupan Pendaftaran</span><span class="sph-date highlight">23 Juli 2026</span></div>
+          </div>
+          <div class="sched-connector upcoming"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot upcoming"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pelaksanaan CBT</span><span class="sph-date">27–30 Juli 2026</span></div>
+          </div>
+          <div class="sched-connector upcoming"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot upcoming"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pengumuman Hasil</span><span class="sph-date">31 Juli 2026</span></div>
+          </div>
+        </div>
+        <div class="sched-action">
+          <a href="https://pmb.uny.ac.id" target="_blank" class="sched-btn">Portal PMB UNY →</a>
+          <span class="sched-note">Alternatif CBT domisili luar Yogya</span>
+        </div>
+      </div>
+
+      <div class="sched-card sched-open" id="sched-undip">
+        <div class="sched-status-stripe stripe-green"></div>
+        <div class="sched-header">
+          <div class="sched-logo undip-color">UNDIP</div>
+          <div class="sched-info">
+            <h3 class="sched-name">Universitas Diponegoro</h3>
+            <span class="sched-jalur">Jalur: Mandiri UTBK · Teknik Informatika</span>
+          </div>
+          <div class="sched-urgency open">🟢 Buka</div>
+        </div>
+        <div class="sched-timeline">
+          <div class="sched-phase">
+            <div class="sched-phase-dot done"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pendaftaran Dibuka</span><span class="sph-date">1 Juni 2026 ✓</span></div>
+          </div>
+          <div class="sched-connector done"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot active pulse"></div>
+            <div class="sched-phase-info"><span class="sph-label">Penutupan Pendaftaran</span><span class="sph-date highlight">30 Juni 2026 ← Segera!</span></div>
+          </div>
+          <div class="sched-connector upcoming"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot upcoming"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pengumuman</span><span class="sph-date">Pertengahan Juli 2026</span></div>
+          </div>
+        </div>
+        <div class="sched-action">
+          <a href="https://pmb.undip.ac.id" target="_blank" class="sched-btn">Portal UNDIP →</a>
+          <span class="sched-note">⚠ Hampir Ditutup! Daftar Segera</span>
+        </div>
+      </div>
+
+      <div class="sched-card sched-open" id="sched-uns">
+        <div class="sched-status-stripe stripe-orange"></div>
+        <div class="sched-header">
+          <div class="sched-logo uns-color">UNS</div>
+          <div class="sched-info">
+            <h3 class="sched-name">Universitas Sebelas Maret</h3>
+            <span class="sched-jalur">Jalur: Mandiri UTBK-SNBT · Informatika</span>
+          </div>
+          <div class="sched-urgency open">🟢 Buka</div>
+        </div>
+        <div class="sched-timeline">
+          <div class="sched-phase">
+            <div class="sched-phase-dot done"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pendaftaran Dibuka</span><span class="sph-date">1 Juni 2026 ✓</span></div>
+          </div>
+          <div class="sched-connector done"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot active pulse"></div>
+            <div class="sched-phase-info"><span class="sph-label">Penutupan</span><span class="sph-date highlight">4 Juli 2026</span></div>
+          </div>
+          <div class="sched-connector upcoming"></div>
+          <div class="sched-phase">
+            <div class="sched-phase-dot upcoming"></div>
+            <div class="sched-phase-info"><span class="sph-label">Pengumuman</span><span class="sph-date">20 Juli 2026</span></div>
+          </div>
+        </div>
+        <div class="sched-action">
+          <a href="https://spmb.uns.ac.id" target="_blank" class="sched-btn">Portal UNS →</a>
+          <span class="sched-note">Cadangan strategis — Solo dekat Klaten</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer id="footer">
+  <div class="footer-inner">
+    <div class="footer-logo">F<span class="gold-dot">.</span>A<span class="gold-dot">.</span>N</div>
+    <p class="footer-tagline">Fayaadh Adhli Nugroho · UTBK 2026 · <span class="gold">IT / Informatika</span></p>
+    <p class="footer-quote mono">"&lt;dream /&gt; — compile, debug, deploy."</p>
+    <div class="footer-divider"></div>
+    <p class="footer-copy">© 2026 Fayaadh Adhli Nugroho · Made with ❤ & JavaScript</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
