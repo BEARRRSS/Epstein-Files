@@ -1,6 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
    FAYAADH ADHLI NUGROHO — Portfolio JavaScript
-   Features: Particles · Score Rings · Countdown Timers · Filters
    ═══════════════════════════════════════════════════════════════ */
 
 'use strict';
